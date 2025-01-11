@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main-frame{
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    border: none;
+    border-radius: 12px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    width: 80px;
+    border-radius: 100%;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px;
+    margin-top: 25px;
+}
+
+.location{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.description{
+    font-size: 14px;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links button{
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 300px;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 8px;
+    padding: 14px 0px;
+    margin-top: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.social-links button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);;
+}
